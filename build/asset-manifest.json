@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01bfade4.css",
+    "main.js": "/static/js/main.f16db2a6.js",
+    "static/js/787.1d35bca3.chunk.js": "/static/js/787.1d35bca3.chunk.js",
+    "static/media/auth-bg-pattern.png": "/static/media/auth-bg-pattern.4b0793cd585b42a30edd.png",
+    "static/media/NirmalaUI.eot": "/static/media/NirmalaUI.36ba1d5810d783c349f5.eot",
+    "static/media/NirmalaUI.woff": "/static/media/NirmalaUI.2427e65fa67909a0b2bf.woff",
+    "static/media/materialdesignicons-webfont.eot": "/static/media/materialdesignicons-webfont.b26c938228213239b687.eot",
+    "static/media/materialdesignicons-webfont.ttf?v=3.7.95": "/static/media/materialdesignicons-webfont.bfd0d9063c7218651c0d.ttf",
+    "static/media/NirmalaUI.woff2": "/static/media/NirmalaUI.1bb0a8cb4024a3093889.woff2",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/materialdesignicons-webfont.woff?v=3.7.95": "/static/media/materialdesignicons-webfont.3073b3fdd40372a2fbb2.woff",
+    "static/media/materialdesignicons-webfont.woff2?v=3.7.95": "/static/media/materialdesignicons-webfont.6006f8d3d28529d877ae.woff2",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/banner.jpg": "/static/media/banner.a55a2d1b2f8225c4c33d.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo.jpg": "/static/media/logo.a249727a941c8166d804.jpg",
+    "static/media/logo.png": "/static/media/logo.703e886b329f4a7d0659.png",
+    "static/media/graph.png": "/static/media/graph.0acedb47a7c93fca3646.png",
+    "static/media/chart.png": "/static/media/chart.911f10b373f91ea9c8e4.png",
+    "static/media/s5.png": "/static/media/s5.588dffcd1dbab224e283.png",
+    "index.html": "/index.html",
+    "main.01bfade4.css.map": "/static/css/main.01bfade4.css.map",
+    "main.f16db2a6.js.map": "/static/js/main.f16db2a6.js.map",
+    "787.1d35bca3.chunk.js.map": "/static/js/787.1d35bca3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01bfade4.css",
+    "static/js/main.f16db2a6.js"
+  ]
+}

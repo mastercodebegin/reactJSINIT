@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nirmala UI';
+    src: url('../fonts/NirmalaUI.eot');
+    src: url('../fonts/NirmalaUI.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NirmalaUI.woff2') format('woff2'),
+        url('../fonts/NirmalaUI.woff') format('woff'),
+        url('../fonts/NirmalaUI.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

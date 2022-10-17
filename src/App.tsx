@@ -11,7 +11,7 @@ import UserManagement from './screen/usermanagement/UserManagement';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<UserManagement />} />
+      <Route path='/' element={<Dashboard />} />
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/usermanagement' element={<Login />} />
     </Routes>

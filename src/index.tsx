@@ -5,6 +5,13 @@ import '../src/assets/css/style.css';
 import '../src/assets/css/vendor.bundle.base.css';
 import '../src/assets/css/vendor.bundle.base.css';
 import '../src/assets/font-awesome/css/font-awesome.min.css';
+
+import '../src/assets/css/bootstrap.min.css';
+import '../src/assets/css/responsive.css';
+import '../src/assets/css/style.css';
+import '../src/assets/fonts/stylesheet.css';
+// import '../src/assets/font-awesome/css/font-awesome.min.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'

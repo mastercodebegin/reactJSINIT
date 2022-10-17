@@ -5,6 +5,9 @@ import { CategorieService } from '../../services/CategorieService'
 import SideBar from '../sidebar/SideBar'
 import Header from '../header/Header'
 // import './dashboard.css'
+import chart from '../../assets/images/chart.png'
+import graph from '../../assets/images/graph.png'
+
 
 
 export default function Dashboard() {
@@ -33,80 +36,209 @@ export default function Dashboard() {
 
     return (
         <div>
-            <div className="container-scroller">
+            <div className='p-3'>
+            <Header /> 
+    <div className="container-fluid mt-3">
+    <div className="row ">
+             <SideBar />
+            <div className="col-md-9 p-4 whiteBg">
+                <div className="bannerBg mb-4">
+                    <div className="title">Lets Manage the Orders</div>
+                </div>
+                <div className="row ">
 
-                <Header />
+                    <div className="col-md-4 mb-4">
+                        <div className="greenBox">
 
-                <div className="container-fluid page-body-wrapper">
-
-                    <SideBar />
-
-                    <div className="main-panel">
-                        <div className="content-wrapper">
-
-                            <div className="page-header">
-                                <h3 className="page-title">
-                                    <span className="page-title-icon bg-gradient-primary text-white mr-2">
-                                        <i className="mdi mdi-home"></i>
-                                    </span> Dashboard--------
-                                </h3>
-
-                            </div>
-                            <div className="row">
-                                <div className="col-md-3 mb-4 stretch-card transparent">
-                                    <div className="card card-tale">
-                                        <div className="card-body">
-                                            <p className="mb-4">Today’s Bookings</p>
-                                            <p className="fs-30 mb-2">4006</p>
-                                            <p>10.00% (30 days)</p>
-                                        </div>
+                            <div className="row ">
+                                <div className="col-md-3"></div>
+                                <div className="col-md-9 text-center">
+                                    <div className="boxTitle pt-4">
+                                        Total Order
                                     </div>
-                                </div>
-                                <div className="col-md-3 mb-4 stretch-card transparent">
-                                    <div className="card card-dark-blue">
-                                        <div className="card-body">
-                                            <p className="mb-4">Total Bookings</p>
-                                            <p className="fs-30 mb-2">61344</p>
-                                            <p>22.00% (30 days)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-3 mb-4  stretch-card transparent">
-                                    <div className="card card-light-blue">
-                                        <div className="card-body">
-                                            <p className="mb-4">Number of Meetings</p>
-                                            <p className="fs-30 mb-2">34040</p>
-                                            <p>2.00% (30 days)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-3 mb-4  stretch-card transparent">
-                                    <div className="card card-light-danger">
-                                        <div className="card-body">
-                                            <p className="mb-4">Number of Clients</p>
-                                            <p className="fs-30 mb-2">47033</p>
-                                            <p>0.22% (30 days)</p>
-                                        </div>
-                                    </div>
+                                    <div className="amount">100</div>
                                 </div>
                             </div>
 
 
 
                         </div>
+                    </div>
 
-                        <footer className="footer">
-                            <div className="container-fluid clearfix">
-                                <span className="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-                                <span className="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin templates </a> from Bootstrapdash.com</span>
+                    <div className="col-md-4 mb-4">
+                        <div className="yellowBox">
+
+                            <div className="row ">
+                                <div className="col-md-3"></div>
+                                <div className="col-md-9 text-center">
+                                    <div className="boxTitle pt-4">
+                                        Approved
+                                    </div>
+                                    <div className="amount">60</div>
+                                </div>
                             </div>
-                        </footer>
 
+
+
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 mb-4">
+                        <div className="darkgreenBox">
+
+                            <div className="row ">
+                                <div className="col-md-3"></div>
+                                <div className="col-md-9 text-center">
+                                    <div className="boxTitle pt-4">
+                                        Completed
+                                    </div>
+                                    <div className="amount">40</div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <div className="yellowBox4">
+
+                            <div className="row ">
+                                <div className="col-md-3"></div>
+                                <div className="col-md-9 text-center">
+                                    <div className="boxTitle pt-4">
+                                        Pending
+                                    </div>
+                                    <div className="amount">40</div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <div className="darkgreenBox5">
+
+                            <div className="row ">
+                                <div className="col-md-3"></div>
+                                <div className="col-md-9 text-center">
+                                    <div className="boxTitle pt-4">
+                                        Revenue
+                                    </div>
+                                    <div className="amount">200$</div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <div className="col-md-4 mb-4">
+
+                        <div className="row ">
+
+                            <div className="col-md-3">
+                                <div className="branch">
+
+                                </div>
+                            </div>
+                            <div className="col-md-9 pl-0">
+                                <div className="row ">
+
+                                    <div className="col-12 pl-7">
+                                        <div className="lightgreenBox">
+
+                                            <div className="row ">
+                                                <div className="col-md-5"></div>
+                                                <div className="col-md-7">
+                                                    <div className="boxTitle2 pt-3 ">
+                                                        Online<br />
+                                                        Revenue
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 pl-7 mt-3">
+                                        <div className="darkbrownBox">
+
+                                            <div className="row ">
+                                                <div className="col-md-5"></div>
+                                                <div className="col-md-7">
+                                                    <div className="boxTitle2 pt-3 ">
+                                                        Cash
+                                                        <br />
+                                                        Revenue
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row ">
+                    <div className="col-md-6">
+                        <div className="pageTitle">
+                            Revenue Pie Chart
+                            <div className="text-center mt-4">
+                                <img src={graph} className="img-fluid" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <img src={chart} className="img-fluid" />
                     </div>
 
                 </div>
 
+
+
             </div>
+            </div>
+            </div>
+            </div>
+            <footer className="footer mt-2">
+    <div className="container-fluid">
+        <div className="row disF">
+<div className="col-5">
+    Copyright © Pedi & Nails Ltd, All Rights Reserved
+</div>
+<div className="col-7">
+    <div className="footerLink">
+        <ul>
+            <li>
+                <a href="#">Terms & Conditions</a>
+            </li>
+            |
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            |
+            <li>
+                <a href="#">Account Activity</a>
+            </li>
+            |
+            <li>
+                <a href="#">Report An Issue</a>
+            </li>
+           
+        </ul>
+    </div>
+
+  
+</div>
+</div>
+    </div>
+            </footer>
         </div>
 
     )
